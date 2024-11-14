@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (registerLink) {
         registerLink.addEventListener("click", function(event) {
             event.preventDefault();
-            window.location.href = "Registro.Html";
+            window.location.href = "Registro.html";
         });
     }
     
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (loginLink) {
         loginLink.addEventListener("click", function(event) {
             event.preventDefault();
-            window.location.href = "Login.Html";
+            window.location.href = "index.html";
         });
     }
 });

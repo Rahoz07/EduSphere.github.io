@@ -110,8 +110,14 @@ input[type="password"] {
 }
 
 .forgot-password {
-    color: white;
+    color: #ffd700;
     text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.forgot-password:hover {
+    color: #ffc107;
+    transform: scale(1.05);
 }
 
 button {
@@ -131,9 +137,17 @@ button:hover {
 }
 
 .register-link {
-    color: white;
+    display: inline-block;
     margin-top: 20px;
+    color: #ffd700;
     font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.register-link:hover {
+    color: #ffc107;
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
